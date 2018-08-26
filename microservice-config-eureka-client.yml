@@ -17,8 +17,8 @@ eureka:
   instance:
     hostname: eureka9001.com  
   client:
-    register-with-eureka: false #false±íÊ¾²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º
-    fetch-registry: false   #false±íÊ¾×Ô¼º¶Ë¾ÍÊÇ×¢²áÖĞĞÄ,ÎÒµÄÖ°Ôğ¾ÍÊÇÎ¬»¤·şÎñÊµÀı,²¢²»ĞèÒªÈ¥¼ìË÷·şÎñ
+    register-with-eureka: false #falseè¡¨ç¤ºä¸å‘æ³¨å†Œä¸­å¿ƒæ³¨å†Œè‡ªå·±
+    fetch-registry: false   #falseè¡¨ç¤ºè‡ªå·±ç«¯å°±æ˜¯æ³¨å†Œä¸­å¿ƒ,æˆ‘çš„èŒè´£å°±æ˜¯ç»´æŠ¤æœåŠ¡å®ä¾‹,å¹¶ä¸éœ€è¦å»æ£€ç´¢æœåŠ¡
     service-url: 
       defaultZone: http://eureka9001.com:9001/eureka/
       
@@ -36,7 +36,7 @@ eureka:
   instance:
     hostname: eureka9001.com  
   client:
-    register-with-eureka: false #false±íÊ¾²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º
-    fetch-registry: false   #false±íÊ¾×Ô¼º¶Ë¾ÍÊÇ×¢²áÖĞĞÄ,ÎÒµÄÖ°Ôğ¾ÍÊÇÎ¬»¤·şÎñÊµÀı,²¢²»ĞèÒªÈ¥¼ìË÷·şÎñ
+    register-with-eureka: false #falseè¡¨ç¤ºä¸å‘æ³¨å†Œä¸­å¿ƒæ³¨å†Œè‡ªå·±
+    fetch-registry: false   #falseè¡¨ç¤ºè‡ªå·±ç«¯å°±æ˜¯æ³¨å†Œä¸­å¿ƒ,æˆ‘çš„èŒè´£å°±æ˜¯ç»´æŠ¤æœåŠ¡å®ä¾‹,å¹¶ä¸éœ€è¦å»æ£€ç´¢æœåŠ¡
     service-url: 
       defaultZone: http://eureka9001.com:9001/eureka/
