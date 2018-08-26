@@ -29,7 +29,7 @@ mybatis:
 eureka:
   client:  #客户端注册进eureka服务器列表内
     service-url:
-      defaultZone: http://localhost:9000/eureka
+      defaultZone: http://localhost:9001/eureka
 #      defaultZone: http://eureka9000.com:9000/eureka/,http://eureka9001.com:9001/eureka/,http://eureka9002.com:9002/eureka/
   instance:
     instance-id: user-8001.com   #自定义服务名称信息
@@ -67,7 +67,7 @@ mybatis:
 eureka:
   client:  #客户端注册进eureka服务器列表内
     service-url:
-      defaultZone: http://localhost:9000/eureka
+      defaultZone: http://localhost:9001/eureka
 #      defaultZone: http://eureka9000.com:9000/eureka/,http://eureka9001.com:9001/eureka/,http://eureka9002.com:9002/eureka/
   instance:
     instance-id: user-8001.com   #自定义服务名称信息
